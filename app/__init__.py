@@ -10,7 +10,7 @@ from config import config
 bootstrap = Bootstrap()
 mail = Mail()
 moment = Moment()
-db = SQLAlchemy(use_native_unicode="utf8")
+db = SQLAlchemy()
 pagedown = PageDown()
 
 login_manager = LoginManager()
